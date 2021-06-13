@@ -23,28 +23,33 @@ public class HomeWorkApp {
         }
     }
 
-        public static void printColor () {
-            int color_r = -10;
-            // if (color_r <= 0) ;
+    public static void printColor() {
+        int color_r = -10;
+        if (color_r <= 0) {
             System.out.println("color_r <= 0");
-            int color_y = 10;
-            //if (color_y > 0 && color_y >= 100) ;
+        }
+        int color_y = 10;
+        if (color_y > 0 && color_y >= 100) {
             System.out.println("color_y > 0 && color_y >= 100");
-            int color_g = 123;
-           //if (color_g > 100) ;
+        }
+        int color_g = 123;
+        if (color_g > 100) {
             System.out.println("color_g > 100");
         }
+    }
 
 
-        public static void compareNumbers () {
-            int a = 5;
-            int b = 7;
-            if (a >= b && a < b) ;
+    public static void compareNumbers() {
+        int a = 5;
+        int b = 7;
+        if (a >= b && a < b) {
             System.out.println(a >= b);
             System.out.println(a < b);
-
         }
     }
+}
+
+
 
 
 
