@@ -24,17 +24,17 @@ public class HomeWorkApp {
     }
 
     public static void printColor() {
-        int color_r = -10;
+        int color_r = -1;
         if (color_r <= 0) {
-            System.out.println("color_r <= 0");
+            System.out.println("красный");
         }
         int color_y = 10;
         if (color_y > 0 && color_y >= 100) {
-            System.out.println("color_y > 0 && color_y >= 100");
+            System.out.println("желтый");
         }
-        int color_g = 123;
+        int color_g = 101;
         if (color_g > 100) {
-            System.out.println("color_g > 100");
+            System.out.println("зеленый");
         }
     }
 
