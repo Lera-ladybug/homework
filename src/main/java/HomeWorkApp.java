@@ -29,7 +29,7 @@ public class HomeWorkApp {
             System.out.println("красный");
         }
         int color_y = 10;
-        if (color_y > 0 && color_y >= 100) {
+        if (color_y > 0 && color_y <= 100) {
             System.out.println("желтый");
         }
         int color_g = 101;
@@ -40,14 +40,17 @@ public class HomeWorkApp {
 
 
     public static void compareNumbers() {
-        int a = 5;
-        int b = 7;
-        if (a >= b && a < b) {
-            System.out.println(a >= b);
-            System.out.println(a < b);
+        int a = 0;
+        int b = 1;
+        if (a < b) {
+            System.out.println("a < b");
+            } else
+            System.out.println("a >= b");
         }
     }
-}
+
+
+
 
 
 
